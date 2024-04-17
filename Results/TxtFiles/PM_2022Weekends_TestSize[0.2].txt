@@ -1,0 +1,114 @@
+Prediction Model Results -> Weekdends 2022 [Test Size = 0.2]:
+
+
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+15/15 [==============================] - 0s 409us/step
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+MAE:0.07969246890982759 || RMSE:0.11718182343715249 || MSE:0.01373157974405598 || R2:0.8654451433961828 || MAPE:41.830703895635914 || Model: <keras.src.engine.sequential.Sequential object at 0x2e988d350>
+==========================================================================
+15/15 [==============================] - 0s 444us/step
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+MAE:0.07909431241697992 || RMSE:0.11484332978790475 || MSE:0.01318899039677345 || R2:0.8707619411120439 || MAPE:63.416228668629614 || Model: <keras.src.engine.sequential.Sequential object at 0x2ea91f210>
+==========================================================================
+15/15 [==============================] - 0s 402us/step
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+MAE:0.080028898358571 || RMSE:0.11907703981085195 || MSE:0.014179341410115221 || R2:0.8610575559596123 || MAPE:80.75740445489052 || Model: <keras.src.engine.sequential.Sequential object at 0x2ea535fd0>
+==========================================================================
+15/15 [==============================] - 0s 429us/step
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+MAE:0.08273642237044751 || RMSE:0.11977992415691294 || MSE:0.014347230231035816 || R2:0.8594124243254219 || MAPE:103.0563780108508 || Model: <keras.src.engine.sequential.Sequential object at 0x2ea46a050>
+==========================================================================
+15/15 [==============================] - 0s 421us/step
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+MAE:0.07499822317359625 || RMSE:0.10932343515238496 || MSE:0.011951613473517721 || R2:0.8828869170854469 || MAPE:82.03308294679417 || Model: <keras.src.engine.sequential.Sequential object at 0x2ea476cd0>
+==========================================================================
+15/15 [==============================] - 0s 402us/step
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+MAE:0.077841002195108 || RMSE:0.11098260875116829 || MSE:0.012317139445214897 || R2:0.8793051518680854 || MAPE:125.05260479859457 || Model: <keras.src.engine.sequential.Sequential object at 0x2e88a5190>
+==========================================================================
+15/15 [==============================] - 0s 421us/step
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+MAE:0.2897530609610711 || RMSE:0.31973974162968427 || MSE:0.10223350237741725 || R2:-0.0017794389938252664 || MAPE:192.5870836806445 || Model: <keras.src.engine.sequential.Sequential object at 0x2e7e291d0>
+==========================================================================
+15/15 [==============================] - 0s 421us/step
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+MAE:0.08889861551941311 || RMSE:0.11802470391034889 || MSE:0.013929830733125523 || R2:0.8635024948515124 || MAPE:47.74471905854121 || Model: <keras.src.engine.sequential.Sequential object at 0x2e90c7590>
+==========================================================================
+15/15 [==============================] - 0s 405us/step
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+MAE:0.0904749148603289 || RMSE:0.12027259263690779 || MSE:0.014465496539603566 || R2:0.8582535404615835 || MAPE:33.1643368465357 || Model: <keras.src.engine.sequential.Sequential object at 0x2e441eb90>
+==========================================================================
+15/15 [==============================] - 0s 421us/step
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+MAE:0.07557070409528312 || RMSE:0.10847148728477138 || MSE:0.011766063553770318 || R2:0.884705108678098 || MAPE:69.84971190377917 || Model: <keras.src.engine.sequential.Sequential object at 0x2e64c95d0>
+==========================================================================
+15/15 [==============================] - 0s 444us/step
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+MAE:0.07685216750307619 || RMSE:0.10991067988524195 || MSE:0.012080357552836127 || R2:0.8816253622276544 || MAPE:91.09627025345432 || Model: <keras.src.engine.sequential.Sequential object at 0x2e9b1f510>
+==========================================================================
+15/15 [==============================] - 0s 409us/step
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+MAE:0.07984447554755525 || RMSE:0.11884648153227965 || MSE:0.01412448617260249 || R2:0.861595078863391 || MAPE:95.0565208844587 || Model: <keras.src.engine.sequential.Sequential object at 0x2cf0b21d0>
+==========================================================================
+15/15 [==============================] - 0s 406us/step
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+MAE:0.08759284627625245 || RMSE:0.18976129073127482 || MSE:0.03600934745999941 || R2:0.6471467468282655 || MAPE:387.10374193807553 || Model: <keras.src.engine.sequential.Sequential object at 0x2c75bf5d0>
+==========================================================================
+15/15 [==============================] - 0s 442us/step
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+MAE:0.07489148391977471 || RMSE:0.1072594173978893 || MSE:0.011504582620534637 || R2:0.8872673433322273 || MAPE:42.124640481404555 || Model: <keras.src.engine.sequential.Sequential object at 0x28fdf6dd0>
+==========================================================================
+15/15 [==============================] - 0s 407us/step
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+MAE:0.08068541303487381 || RMSE:0.12030569842453932 || MSE:0.014473461073416204 || R2:0.8581754965128864 || MAPE:141.05663578008853 || Model: <keras.src.engine.sequential.Sequential object at 0x2d00c5310>
+==========================================================================
+15/15 [==============================] - 0s 421us/step
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+MAE:0.12412742805479073 || RMSE:0.15317566240103536 || MSE:0.02346278355199596 || R2:0.7700897103458321 || MAPE:52.62934525010411 || Model: <keras.src.engine.sequential.Sequential object at 0x291f4e650>
+==========================================================================
+15/15 [==============================] - 0s 441us/step
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+MAE:0.08877525950331921 || RMSE:0.12742353557737338 || MSE:0.01623675741903814 || R2:0.8408970703334151 || MAPE:46.36821558379992 || Model: <keras.src.engine.sequential.Sequential object at 0x2eeff3e90>
+==========================================================================
+15/15 [==============================] - 0s 410us/step
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+MAE:0.0839436638545915 || RMSE:0.1201315247537754 || MSE:0.014431583239666954 || R2:0.858585854681432 || MAPE:53.71735685055147 || Model: <keras.src.engine.sequential.Sequential object at 0x2de728610>
+==========================================================================
+15/15 [==============================] - 0s 486us/step
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+MAE:0.0774616459786479 || RMSE:0.1096315923054313 || MSE:0.012019086031424306 || R2:0.8822257578799488 || MAPE:82.82651996275251 || Model: <keras.src.engine.sequential.Sequential object at 0x2f2580690>
+==========================================================================
+15/15 [==============================] - 0s 508us/step
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+MAE:0.07951078986015761 || RMSE:0.11778798986097865 || MSE:0.013874010555490007 || R2:0.8640494731407801 || MAPE:121.51159725628256 || Model: <keras.src.engine.sequential.Sequential object at 0x2f2fde910>
+==========================================================================
+15/15 [==============================] - 0s 474us/step
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+MAE:0.08103588329543171 || RMSE:0.12016808205874183 || MSE:0.014440367945676508 || R2:0.8584997739187336 || MAPE:104.09506058140046 || Model: <keras.src.engine.sequential.Sequential object at 0x295d5d890>
+==========================================================================
+15/15 [==============================] - 0s 463us/step
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+MAE:0.0873229176359759 || RMSE:0.15063932322826495 || MSE:0.022692205702669683 || R2:0.7776405525614233 || MAPE:251.87704895134027 || Model: <keras.src.engine.sequential.Sequential object at 0x2f6c7cdd0>
+==========================================================================
+15/15 [==============================] - 0s 496us/step
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+MAE:0.07537337220595124 || RMSE:0.10787546577474381 || MSE:0.011637116116117925 || R2:0.8859686562309759 || MAPE:42.3103351768049 || Model: <keras.src.engine.sequential.Sequential object at 0x2d6b04b10>
+==========================================================================
+15/15 [==============================] - 0s 457us/step
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+MAE:0.07343871845441752 || RMSE:0.10487411951515177 || MSE:0.010998580944078337 || R2:0.8922256208418737 || MAPE:107.34518821402406 || Model: <keras.src.engine.sequential.Sequential object at 0x2ee960c50>
+==========================================================================
+15/15 [==============================] - 0s 475us/step
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+MAE:0.08106966139586803 || RMSE:0.11530762257481339 || MSE:0.013295847823855613 || R2:0.8697148521356777 || MAPE:52.9014893060924 || Model: <keras.src.engine.sequential.Sequential object at 0x2fc0e3890>
+==========================================================================
+15/15 [==============================] - 0s 493us/step
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+MAE:0.08883188008688754 || RMSE:0.12976739904686885 || MSE:0.0168395778553893 || R2:0.8349900720941053 || MAPE:114.24763904350922 || Model: <keras.src.engine.sequential.Sequential object at 0x2fcaa4bd0>
+==========================================================================
+15/15 [==============================] - 0s 497us/step
+MAE:0.07877014836931635 || RMSE:0.10738542670041959 || MSE:0.011531629867631189 || R2:0.8870023091174875 || MAPE:47.60308382549358 || Model: <keras.src.engine.sequential.Sequential object at 0x2fec1c990>
+==========================================================================
+15/15 [==============================] - 0s 463us/step
+Best configuration: {'neurons': 100, 'learning_rate': 0.01, 'activation': 'sigmoid', 'MAE': 0.07343871845441752, 'MSE': 0.010998580944078337, 'RMSE': 0.10487411951515177, 'R2': 0.8922256208418737, 'MAPE': 107.34518821402406, 'model': <keras.src.engine.sequential.Sequential object at 0x2ee960c50>}
+
