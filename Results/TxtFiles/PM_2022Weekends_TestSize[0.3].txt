@@ -1,114 +1,331 @@
 Prediction Model Results -> Weekdends 2022 [Test Size = 0.3]:
 
+22/22 [==============================] - 0s 400us/step
+Neurons:10 || Learning Rate:0.001 || Activation Function:relu || Number of Hidden Layers:1
+MAE:0.0753734793021132 || RMSE:0.10436691916772345 || MSE:0.010892453816562122 || R2:0.8930209750229808 || MAPE:67.55713966440683 || Model: <keras.src.engine.sequential.Sequential object at 0x596a6b2d0>
+==========================================================================
+22/22 [==============================] - 0s 479us/step
+Neurons:10 || Learning Rate:0.001 || Activation Function:relu || Number of Hidden Layers:2
+MAE:0.07328622572348138 || RMSE:0.09875041627273544 || MSE:0.009751644714038533 || R2:0.9042253048763068 || MAPE:35.04718228140331 || Model: <keras.src.engine.sequential.Sequential object at 0x596b8cad0>
+==========================================================================
+22/22 [==============================] - 0s 577us/step
+Neurons:10 || Learning Rate:0.001 || Activation Function:relu || Number of Hidden Layers:3
+MAE:0.07051548475391647 || RMSE:0.09733944047318992 || MSE:0.009474966671633684 || R2:0.906942667530075 || MAPE:38.96764072692484 || Model: <keras.src.engine.sequential.Sequential object at 0x591e9e450>
+==========================================================================
+22/22 [==============================] - 0s 414us/step
+Neurons:10 || Learning Rate:0.001 || Activation Function:tanh || Number of Hidden Layers:1
+MAE:0.07437055288109476 || RMSE:0.10379106244368291 || MSE:0.010772584643188485 || R2:0.8941982567914667 || MAPE:54.92693838481946 || Model: <keras.src.engine.sequential.Sequential object at 0x596b89dd0>
+==========================================================================
+22/22 [==============================] - 0s 528us/step
+Neurons:10 || Learning Rate:0.001 || Activation Function:tanh || Number of Hidden Layers:2
+MAE:0.07306780661118228 || RMSE:0.1029665087294629 || MSE:0.01060210191993456 || R2:0.8958726339167936 || MAPE:45.56568014562112 || Model: <keras.src.engine.sequential.Sequential object at 0x59d754f90>
+==========================================================================
+22/22 [==============================] - 0s 641us/step
+Neurons:10 || Learning Rate:0.001 || Activation Function:tanh || Number of Hidden Layers:3
+MAE:0.07319564460095583 || RMSE:0.10205504307393189 || MSE:0.010415231816822093 || R2:0.8977079578727172 || MAPE:35.66262182061406 || Model: <keras.src.engine.sequential.Sequential object at 0x5a292e990>
+==========================================================================
+22/22 [==============================] - 0s 387us/step
+Neurons:10 || Learning Rate:0.001 || Activation Function:sigmoid || Number of Hidden Layers:1
+MAE:0.08064586315921206 || RMSE:0.11639782324352697 || MSE:0.013548453255831348 || R2:0.8669353716192282 || MAPE:55.9526804255374 || Model: <keras.src.engine.sequential.Sequential object at 0x5a29ec990>
+==========================================================================
+22/22 [==============================] - 0s 462us/step
+Neurons:10 || Learning Rate:0.001 || Activation Function:sigmoid || Number of Hidden Layers:2
+MAE:0.08347259749407981 || RMSE:0.12024069644269667 || MSE:0.014457825081024726 || R2:0.8580040772718664 || MAPE:38.47870472443199 || Model: <keras.src.engine.sequential.Sequential object at 0x5a8a5e450>
+==========================================================================
+22/22 [==============================] - 0s 550us/step
+Neurons:10 || Learning Rate:0.001 || Activation Function:sigmoid || Number of Hidden Layers:3
+MAE:0.0815239327139717 || RMSE:0.11669245033112585 || MSE:0.013617127964282274 || R2:0.8662608906001312 || MAPE:34.45769513247626 || Model: <keras.src.engine.sequential.Sequential object at 0x5ab8abf90>
+==========================================================================
+22/22 [==============================] - 0s 397us/step
+Neurons:10 || Learning Rate:0.01 || Activation Function:relu || Number of Hidden Layers:1
+MAE:0.0729987018728761 || RMSE:0.1016734607639676 || MSE:0.01033749262372206 || R2:0.8984714647207055 || MAPE:44.25230679792706 || Model: <keras.src.engine.sequential.Sequential object at 0x5a3e83ed0>
+==========================================================================
+22/22 [==============================] - 0s 486us/step
+Neurons:10 || Learning Rate:0.01 || Activation Function:relu || Number of Hidden Layers:2
+MAE:0.08205332400369142 || RMSE:0.11552277074866814 || MSE:0.013345510561449336 || R2:0.8689285507445953 || MAPE:58.475995497503575 || Model: <keras.src.engine.sequential.Sequential object at 0x5b090dc50>
+==========================================================================
+22/22 [==============================] - 0s 556us/step
+Neurons:10 || Learning Rate:0.01 || Activation Function:relu || Number of Hidden Layers:3
+MAE:0.07813597647270859 || RMSE:0.10624559354239575 || MSE:0.011288126147175965 || R2:0.889134923188169 || MAPE:28.48364281537649 || Model: <keras.src.engine.sequential.Sequential object at 0x5b3121b10>
+==========================================================================
+22/22 [==============================] - 0s 419us/step
+Neurons:10 || Learning Rate:0.01 || Activation Function:tanh || Number of Hidden Layers:1
+MAE:0.07799017174344691 || RMSE:0.10588339798143542 || MSE:0.011211293968095042 || R2:0.8898895218987405 || MAPE:43.60156447022387 || Model: <keras.src.engine.sequential.Sequential object at 0x5b0cb11d0>
+==========================================================================
+22/22 [==============================] - 0s 527us/step
+Neurons:10 || Learning Rate:0.01 || Activation Function:tanh || Number of Hidden Layers:2
+MAE:0.0739604763898256 || RMSE:0.10493933941308477 || MSE:0.011012264956454607 || R2:0.8918442632238824 || MAPE:28.68947817467825 || Model: <keras.src.engine.sequential.Sequential object at 0x5b7324150>
+==========================================================================
+22/22 [==============================] - 1s 719us/step
+Neurons:10 || Learning Rate:0.01 || Activation Function:tanh || Number of Hidden Layers:3
+MAE:0.07522399472219843 || RMSE:0.10487606264412341 || MSE:0.010998988515734097 || R2:0.8919746563113689 || MAPE:33.62446802325704 || Model: <keras.src.engine.sequential.Sequential object at 0x5c1d04f90>
+==========================================================================
+22/22 [==============================] - 0s 380us/step
+Neurons:10 || Learning Rate:0.01 || Activation Function:sigmoid || Number of Hidden Layers:1
+MAE:0.07404325519512361 || RMSE:0.10295552716308666 || MSE:0.010599840573429076 || R2:0.8958948434802553 || MAPE:79.60008843979026 || Model: <keras.src.engine.sequential.Sequential object at 0x5c92cc850>
+==========================================================================
+22/22 [==============================] - 0s 470us/step
+Neurons:10 || Learning Rate:0.01 || Activation Function:sigmoid || Number of Hidden Layers:2
+MAE:0.07592004850721357 || RMSE:0.10675617750029158 || MSE:0.011396881434473762 || R2:0.8880667952169929 || MAPE:36.9324855724407 || Model: <keras.src.engine.sequential.Sequential object at 0x5c95c5090>
+==========================================================================
+22/22 [==============================] - 0s 544us/step
+Neurons:10 || Learning Rate:0.01 || Activation Function:sigmoid || Number of Hidden Layers:3
+MAE:0.07449397042991728 || RMSE:0.10552175439994077 || MSE:0.011134840651641418 || R2:0.8906403996521106 || MAPE:34.08745166566245 || Model: <keras.src.engine.sequential.Sequential object at 0x5cf2d7ad0>
+==========================================================================
+22/22 [==============================] - 0s 397us/step
+Neurons:10 || Learning Rate:0.1 || Activation Function:relu || Number of Hidden Layers:1
+MAE:0.08878842434436636 || RMSE:0.11517847640560948 || MSE:0.013266081427117538 || R2:0.8697086551626341 || MAPE:47.52133627517103 || Model: <keras.src.engine.sequential.Sequential object at 0x5cd5a5650>
+==========================================================================
+22/22 [==============================] - 0s 486us/step
+Neurons:10 || Learning Rate:0.1 || Activation Function:relu || Number of Hidden Layers:2
+MAE:0.10027992480146874 || RMSE:0.14126871685063147 || MSE:0.019956850360623887 || R2:0.8039960114455041 || MAPE:49.36157822219192 || Model: <keras.src.engine.sequential.Sequential object at 0x5dbbeccd0>
+==========================================================================
+22/22 [==============================] - 0s 570us/step
+Neurons:10 || Learning Rate:0.1 || Activation Function:relu || Number of Hidden Layers:3
+MAE:0.2874872709411755 || RMSE:0.31909082821003804 || MSE:0.101818956647768 || R2:-3.5703427472277838e-06 || MAPE:175.89226696798207 || Model: <keras.src.engine.sequential.Sequential object at 0x5de266990>
+==========================================================================
+22/22 [==============================] - 0s 420us/step
+Neurons:10 || Learning Rate:0.1 || Activation Function:tanh || Number of Hidden Layers:1
+MAE:0.08728364441255951 || RMSE:0.11368773435954019 || MSE:0.012924900943805375 || R2:0.8730595213733704 || MAPE:38.588946854641684 || Model: <keras.src.engine.sequential.Sequential object at 0x5e2383cd0>
+==========================================================================
+22/22 [==============================] - 0s 512us/step
+Neurons:10 || Learning Rate:0.1 || Activation Function:tanh || Number of Hidden Layers:2
+MAE:0.08075785102363596 || RMSE:0.10887033721796884 || MSE:0.01185275032595425 || R2:0.8835895295476371 || MAPE:49.02969826314302 || Model: <keras.src.engine.sequential.Sequential object at 0x5e24b10d0>
+==========================================================================
+22/22 [==============================] - 0s 624us/step
+Neurons:10 || Learning Rate:0.1 || Activation Function:tanh || Number of Hidden Layers:3
+MAE:0.08032659136139161 || RMSE:0.11409426187897259 || MSE:0.01301750059370758 || R2:0.8721500641999382 || MAPE:50.57691427526615 || Model: <keras.src.engine.sequential.Sequential object at 0x5e68d01d0>
+==========================================================================
+22/22 [==============================] - 0s 394us/step
+Neurons:10 || Learning Rate:0.1 || Activation Function:sigmoid || Number of Hidden Layers:1
+MAE:0.09070410915794097 || RMSE:0.12281849175312444 || MSE:0.015084381916512297 || R2:0.8518504189243572 || MAPE:49.61656163358163 || Model: <keras.src.engine.sequential.Sequential object at 0x5e4433790>
+==========================================================================
+22/22 [==============================] - 0s 471us/step
+Neurons:10 || Learning Rate:0.1 || Activation Function:sigmoid || Number of Hidden Layers:2
+MAE:0.08779283804061076 || RMSE:0.11575055809248692 || MSE:0.01339819169872219 || R2:0.8684111488078929 || MAPE:43.3580999183652 || Model: <keras.src.engine.sequential.Sequential object at 0x5ed983a50>
+==========================================================================
+22/22 [==============================] - 0s 498us/step
+Neurons:10 || Learning Rate:0.1 || Activation Function:sigmoid || Number of Hidden Layers:3
+MAE:0.08096769092104732 || RMSE:0.11271301345717055 || MSE:0.01270422340259631 || R2:0.8752268813264579 || MAPE:79.30119008320833 || Model: <keras.src.engine.sequential.Sequential object at 0x5ea786450>
+==========================================================================
+22/22 [==============================] - 0s 409us/step
+Neurons:50 || Learning Rate:0.001 || Activation Function:relu || Number of Hidden Layers:1
+MAE:0.07616108663719003 || RMSE:0.10733069261136811 || MSE:0.01151987757643599 || R2:0.8868588022739292 || MAPE:76.94293955631613 || Model: <keras.src.engine.sequential.Sequential object at 0x5f5429dd0>
+==========================================================================
+22/22 [==============================] - 0s 512us/step
+Neurons:50 || Learning Rate:0.001 || Activation Function:relu || Number of Hidden Layers:2
+MAE:0.07297231087216267 || RMSE:0.10151443182597523 || MSE:0.010305179868950572 || R2:0.8987888208516555 || MAPE:32.762912303015746 || Model: <keras.src.engine.sequential.Sequential object at 0x5f555a690>
+==========================================================================
+22/22 [==============================] - 0s 675us/step
+Neurons:50 || Learning Rate:0.001 || Activation Function:relu || Number of Hidden Layers:3
+MAE:0.07114906450771254 || RMSE:0.0980196312890499 || MSE:0.00960784811804129 || R2:0.9056375871676863 || MAPE:32.24455454498344 || Model: <keras.src.engine.sequential.Sequential object at 0x5dba33c50>
+==========================================================================
+22/22 [==============================] - 0s 447us/step
+Neurons:50 || Learning Rate:0.001 || Activation Function:tanh || Number of Hidden Layers:1
+MAE:0.07712227254372493 || RMSE:0.10726930450535276 || MSE:0.011506703689062094 || R2:0.8869881881451159 || MAPE:71.93398823487091 || Model: <keras.src.engine.sequential.Sequential object at 0x5fc57f510>
+==========================================================================
+22/22 [==============================] - 0s 599us/step
+Neurons:50 || Learning Rate:0.001 || Activation Function:tanh || Number of Hidden Layers:2
+MAE:0.07409311409364078 || RMSE:0.10457916548316086 || MSE:0.010936801853154345 || R2:0.8925854157087822 || MAPE:53.58871088524582 || Model: <keras.src.engine.sequential.Sequential object at 0x5fdad1dd0>
+==========================================================================
+22/22 [==============================] - 0s 663us/step
+Neurons:50 || Learning Rate:0.001 || Activation Function:tanh || Number of Hidden Layers:3
+MAE:0.07353165757501647 || RMSE:0.10281655906642714 || MSE:0.0105712448182601 || R2:0.8961756935125783 || MAPE:40.18702404374492 || Model: <keras.src.engine.sequential.Sequential object at 0x5fd65bf90>
+==========================================================================
+22/22 [==============================] - 0s 420us/step
+Neurons:50 || Learning Rate:0.001 || Activation Function:sigmoid || Number of Hidden Layers:1
+MAE:0.07966082504150329 || RMSE:0.1164954717564193 || MSE:0.013571194939750687 || R2:0.8667120166972796 || MAPE:75.39642077925444 || Model: <keras.src.engine.sequential.Sequential object at 0x5c3aada10>
+==========================================================================
+22/22 [==============================] - 0s 493us/step
+Neurons:50 || Learning Rate:0.001 || Activation Function:sigmoid || Number of Hidden Layers:2
+MAE:0.07871193349496856 || RMSE:0.11139136104891224 || MSE:0.012408035316329124 || R2:0.8781358597083991 || MAPE:62.5958300786666 || Model: <keras.src.engine.sequential.Sequential object at 0x5947b2d90>
+==========================================================================
+22/22 [==============================] - 0s 604us/step
+Neurons:50 || Learning Rate:0.001 || Activation Function:sigmoid || Number of Hidden Layers:3
+MAE:0.07842238969385458 || RMSE:0.11170539469481255 || MSE:0.012478095203923857 || R2:0.8774477743062387 || MAPE:51.05061484845056 || Model: <keras.src.engine.sequential.Sequential object at 0x592cb6a50>
+==========================================================================
+22/22 [==============================] - 0s 406us/step
+Neurons:50 || Learning Rate:0.01 || Activation Function:relu || Number of Hidden Layers:1
+MAE:0.07897262965779649 || RMSE:0.12063761197141934 || MSE:0.01455343342216674 || R2:0.8570650705716966 || MAPE:145.06922929912488 || Model: <keras.src.engine.sequential.Sequential object at 0x3b1f55c50>
+==========================================================================
+22/22 [==============================] - 0s 510us/step
+Neurons:50 || Learning Rate:0.01 || Activation Function:relu || Number of Hidden Layers:2
+MAE:0.07303582064299662 || RMSE:0.10156387580756637 || MSE:0.010315220869054767 || R2:0.8986902042847155 || MAPE:30.217938643978147 || Model: <keras.src.engine.sequential.Sequential object at 0x591f11190>
+==========================================================================
+22/22 [==============================] - 0s 597us/step
+Neurons:50 || Learning Rate:0.01 || Activation Function:relu || Number of Hidden Layers:3
+MAE:0.0735277514535289 || RMSE:0.10841399452878411 || MSE:0.01175359420968723 || R2:0.8845633803270294 || MAPE:27.155484619260317 || Model: <keras.src.engine.sequential.Sequential object at 0x5919b1990>
+==========================================================================
+22/22 [==============================] - 0s 417us/step
+Neurons:50 || Learning Rate:0.01 || Activation Function:tanh || Number of Hidden Layers:1
+MAE:0.0725269749382044 || RMSE:0.10191879219111956 || MSE:0.010387440201696612 || R2:0.8979809101329452 || MAPE:46.386251084647824 || Model: <keras.src.engine.sequential.Sequential object at 0x592243890>
+==========================================================================
+22/22 [==============================] - 0s 539us/step
+Neurons:50 || Learning Rate:0.01 || Activation Function:tanh || Number of Hidden Layers:2
+MAE:0.07272570291594083 || RMSE:0.10470723536266208 || MSE:0.010963605137291912 || R2:0.8923221702315456 || MAPE:30.650992039820302 || Model: <keras.src.engine.sequential.Sequential object at 0x56487d310>
+==========================================================================
+22/22 [==============================] - 0s 653us/step
+Neurons:50 || Learning Rate:0.01 || Activation Function:tanh || Number of Hidden Layers:3
+MAE:0.07666663257678691 || RMSE:0.10700232943593559 || MSE:0.011449498504716486 || R2:0.8875500225075089 || MAPE:29.406362757294165 || Model: <keras.src.engine.sequential.Sequential object at 0x436a19dd0>
+==========================================================================
+22/22 [==============================] - 0s 402us/step
+Neurons:50 || Learning Rate:0.01 || Activation Function:sigmoid || Number of Hidden Layers:1
+MAE:0.08334249118381769 || RMSE:0.1148766767113552 || MSE:0.013196650852245218 || R2:0.8703905598398098 || MAPE:84.06640903356019 || Model: <keras.src.engine.sequential.Sequential object at 0x56dc88090>
+==========================================================================
+22/22 [==============================] - 0s 501us/step
+Neurons:50 || Learning Rate:0.01 || Activation Function:sigmoid || Number of Hidden Layers:2
+MAE:0.0755044117271964 || RMSE:0.10953949975242017 || MSE:0.011998902006010458 || R2:0.882154117059829 || MAPE:57.36322190847284 || Model: <keras.src.engine.sequential.Sequential object at 0x4b93c4410>
+==========================================================================
+22/22 [==============================] - 0s 586us/step
+Neurons:50 || Learning Rate:0.01 || Activation Function:sigmoid || Number of Hidden Layers:3
+MAE:0.07033543392852276 || RMSE:0.09631624857541195 || MSE:0.009276819739640544 || R2:0.9088887456079626 || MAPE:28.297553484081234 || Model: <keras.src.engine.sequential.Sequential object at 0x5738c2ad0>
+==========================================================================
+22/22 [==============================] - 0s 414us/step
+Neurons:50 || Learning Rate:0.1 || Activation Function:relu || Number of Hidden Layers:1
+MAE:0.08463651724149096 || RMSE:0.12428314914861664 || MSE:0.015446301162297291 || R2:0.848295869262129 || MAPE:48.894113794533105 || Model: <keras.src.engine.sequential.Sequential object at 0x53a6af510>
+==========================================================================
+22/22 [==============================] - 0s 530us/step
+Neurons:50 || Learning Rate:0.1 || Activation Function:relu || Number of Hidden Layers:2
+MAE:0.2930863193531542 || RMSE:0.32100151813384203 || MSE:0.1030419746442313 || R2:-0.012015305714262237 || MAPE:166.83339368155248 || Model: <keras.src.engine.sequential.Sequential object at 0x537dde5d0>
+==========================================================================
+22/22 [==============================] - 0s 598us/step
+Neurons:50 || Learning Rate:0.1 || Activation Function:relu || Number of Hidden Layers:3
+MAE:0.2839000940744375 || RMSE:0.32020570356731337 || MSE:0.10253169259703815 || R2:-0.007003627281529479 || MAPE:183.23312389145482 || Model: <keras.src.engine.sequential.Sequential object at 0x4d453aad0>
+==========================================================================
+22/22 [==============================] - 0s 431us/step
+Neurons:50 || Learning Rate:0.1 || Activation Function:tanh || Number of Hidden Layers:1
+MAE:0.0816188052329037 || RMSE:0.11278871824639161 || MSE:0.012721294963663914 || R2:0.875059214886131 || MAPE:39.36171926345918 || Model: <keras.src.engine.sequential.Sequential object at 0x4667de250>
+==========================================================================
+22/22 [==============================] - 0s 550us/step
+Neurons:50 || Learning Rate:0.1 || Activation Function:tanh || Number of Hidden Layers:2
+MAE:0.08931228233362694 || RMSE:0.11863559289685754 || MSE:0.014074403901988917 || R2:0.861769805782592 || MAPE:40.18932276668897 || Model: <keras.src.engine.sequential.Sequential object at 0x4ebd4cd90>
+==========================================================================
+22/22 [==============================] - 0s 649us/step
+Neurons:50 || Learning Rate:0.1 || Activation Function:tanh || Number of Hidden Layers:3
+MAE:0.18405117491617617 || RMSE:0.229867273495259 || MSE:0.0528389634241442 || R2:0.4810479912876583 || MAPE:97.37234084368424 || Model: <keras.src.engine.sequential.Sequential object at 0x50a954d10>
+==========================================================================
+22/22 [==============================] - 0s 395us/step
+Neurons:50 || Learning Rate:0.1 || Activation Function:sigmoid || Number of Hidden Layers:1
+MAE:0.07848777510767518 || RMSE:0.1084902964183793 || MSE:0.011770144416947806 || R2:0.8844008343051944 || MAPE:44.07939592600955 || Model: <keras.src.engine.sequential.Sequential object at 0x5195510d0>
+==========================================================================
+22/22 [==============================] - 0s 518us/step
+Neurons:50 || Learning Rate:0.1 || Activation Function:sigmoid || Number of Hidden Layers:2
+MAE:0.0904420817807627 || RMSE:0.11616612775963849 || MSE:0.013494569238668652 || R2:0.8674645875071253 || MAPE:38.81475139965606 || Model: <keras.src.engine.sequential.Sequential object at 0x53d24da10>
+==========================================================================
+22/22 [==============================] - 0s 614us/step
+Neurons:50 || Learning Rate:0.1 || Activation Function:sigmoid || Number of Hidden Layers:3
+MAE:0.07661831862155889 || RMSE:0.10965568901707244 || MSE:0.012024370133808903 || R2:0.8819039846722374 || MAPE:33.82784660317658 || Model: <keras.src.engine.sequential.Sequential object at 0x5654f4990>
+==========================================================================
+22/22 [==============================] - 0s 467us/step
+Neurons:100 || Learning Rate:0.001 || Activation Function:relu || Number of Hidden Layers:1
+MAE:0.07192432191373745 || RMSE:0.10117415870634171 || MSE:0.01023621038993602 || R2:0.8994661969270932 || MAPE:52.42039191708003 || Model: <keras.src.engine.sequential.Sequential object at 0x5378ce990>
+==========================================================================
+22/22 [==============================] - 0s 601us/step
+Neurons:100 || Learning Rate:0.001 || Activation Function:relu || Number of Hidden Layers:2
+MAE:0.07268150927388996 || RMSE:0.10107733279856809 || MSE:0.01021662720567249 || R2:0.8996585309955905 || MAPE:41.42311243180137 || Model: <keras.src.engine.sequential.Sequential object at 0x5ca44be90>
+==========================================================================
+22/22 [==============================] - 0s 772us/step
+Neurons:100 || Learning Rate:0.001 || Activation Function:relu || Number of Hidden Layers:3
+MAE:0.07438958230892333 || RMSE:0.10482279442473438 || MSE:0.010987818231010126 || R2:0.8920843640217352 || MAPE:30.052961442450922 || Model: <keras.src.engine.sequential.Sequential object at 0x53b19b290>
+==========================================================================
+22/22 [==============================] - 0s 478us/step
+Neurons:100 || Learning Rate:0.001 || Activation Function:tanh || Number of Hidden Layers:1
+MAE:0.07828535437800621 || RMSE:0.11203474549253485 || MSE:0.012551784197577059 || R2:0.8767240460421287 || MAPE:86.86387674234928 || Model: <keras.src.engine.sequential.Sequential object at 0x5b31fb2d0>
+==========================================================================
+22/22 [==============================] - 0s 645us/step
+Neurons:100 || Learning Rate:0.001 || Activation Function:tanh || Number of Hidden Layers:2
+MAE:0.07400720493096273 || RMSE:0.10485560307368316 || MSE:0.010994697495945794 || R2:0.8920168000854752 || MAPE:67.59695667574123 || Model: <keras.src.engine.sequential.Sequential object at 0x57affaad0>
+==========================================================================
+22/22 [==============================] - 0s 840us/step
+Neurons:100 || Learning Rate:0.001 || Activation Function:tanh || Number of Hidden Layers:3
+MAE:0.07788684918812606 || RMSE:0.11063798635624703 || MSE:0.012240764024965104 || R2:0.8797786961122185 || MAPE:49.34229643967966 || Model: <keras.src.engine.sequential.Sequential object at 0x584ab3790>
+==========================================================================
+22/22 [==============================] - 0s 452us/step
+Neurons:100 || Learning Rate:0.001 || Activation Function:sigmoid || Number of Hidden Layers:1
+MAE:0.088854375297747 || RMSE:0.12020053114234212 || MSE:0.014448167686901157 || R2:0.8580989262952874 || MAPE:74.8083765178183 || Model: <keras.src.engine.sequential.Sequential object at 0x601f15890>
+==========================================================================
+22/22 [==============================] - 0s 625us/step
+Neurons:100 || Learning Rate:0.001 || Activation Function:sigmoid || Number of Hidden Layers:2
+MAE:0.0792996132279197 || RMSE:0.11234062115255254 || MSE:0.012620415160941334 || R2:0.8760499946605401 || MAPE:76.3549581374877 || Model: <keras.src.engine.sequential.Sequential object at 0x602a8bb90>
+==========================================================================
+22/22 [==============================] - 0s 786us/step
+Neurons:100 || Learning Rate:0.001 || Activation Function:sigmoid || Number of Hidden Layers:3
+MAE:0.10440220550260189 || RMSE:0.1312855559286548 || MSE:0.017235897195495946 || R2:0.8307195506512359 || MAPE:59.94214271377539 || Model: <keras.src.engine.sequential.Sequential object at 0x602a5f1d0>
+==========================================================================
+22/22 [==============================] - 0s 457us/step
+Neurons:100 || Learning Rate:0.01 || Activation Function:relu || Number of Hidden Layers:1
+MAE:0.08141352591986734 || RMSE:0.1180254914832926 || MSE:0.013930016639872773 || R2:0.8631878892356336 || MAPE:54.683132129802225 || Model: <keras.src.engine.sequential.Sequential object at 0x6049f1a10>
+==========================================================================
+22/22 [==============================] - 0s 592us/step
+Neurons:100 || Learning Rate:0.01 || Activation Function:relu || Number of Hidden Layers:2
+MAE:0.07657374225010859 || RMSE:0.105791839518225 || MSE:0.011191913308649873 || R2:0.8900798668922353 || MAPE:49.765475522251364 || Model: <keras.src.engine.sequential.Sequential object at 0x6041f1450>
+==========================================================================
+22/22 [==============================] - 0s 780us/step
+Neurons:100 || Learning Rate:0.01 || Activation Function:relu || Number of Hidden Layers:3
+MAE:0.07316979042355037 || RMSE:0.10473412948420832 || MSE:0.010969237878814915 || R2:0.8922668488864909 || MAPE:41.10675547282413 || Model: <keras.src.engine.sequential.Sequential object at 0x6067bacd0>
+==========================================================================
+22/22 [==============================] - 0s 474us/step
+Neurons:100 || Learning Rate:0.01 || Activation Function:tanh || Number of Hidden Layers:1
+MAE:0.0755276202140437 || RMSE:0.11044501418805777 || MSE:0.012198101159000281 || R2:0.8801977047103273 || MAPE:49.26304806357286 || Model: <keras.src.engine.sequential.Sequential object at 0x60748cf90>
+==========================================================================
+22/22 [==============================] - 0s 695us/step
+Neurons:100 || Learning Rate:0.01 || Activation Function:tanh || Number of Hidden Layers:2
+MAE:0.0715214978209037 || RMSE:0.09985184440155694 || MSE:0.009970390830392738 || R2:0.9020769141978446 || MAPE:28.840010092883432 || Model: <keras.src.engine.sequential.Sequential object at 0x6074c90d0>
+==========================================================================
+22/22 [==============================] - 0s 886us/step
+Neurons:100 || Learning Rate:0.01 || Activation Function:tanh || Number of Hidden Layers:3
+MAE:0.07543766523358454 || RMSE:0.10883532207279387 || MSE:0.011845127330688772 || R2:0.8836643979487008 || MAPE:34.24602323254144 || Model: <keras.src.engine.sequential.Sequential object at 0x609a3b4d0>
+==========================================================================
+22/22 [==============================] - 0s 457us/step
+Neurons:100 || Learning Rate:0.01 || Activation Function:sigmoid || Number of Hidden Layers:1
+MAE:0.07304117238428948 || RMSE:0.10603713146460828 || MSE:0.01124387324924262 || R2:0.8895695481085996 || MAPE:102.15572867911877 || Model: <keras.src.engine.sequential.Sequential object at 0x609573650>
+==========================================================================
+22/22 [==============================] - 0s 611us/step
+Neurons:100 || Learning Rate:0.01 || Activation Function:sigmoid || Number of Hidden Layers:2
+MAE:0.07878145698534438 || RMSE:0.10468536834915956 || MSE:0.01095902634639922 || R2:0.8923671403175816 || MAPE:51.47712755318371 || Model: <keras.src.engine.sequential.Sequential object at 0x60dbedc50>
+==========================================================================
+22/22 [==============================] - 0s 761us/step
+Neurons:100 || Learning Rate:0.01 || Activation Function:sigmoid || Number of Hidden Layers:3
+MAE:0.07039838510434539 || RMSE:0.09667234522667176 || MSE:0.009345542331624806 || R2:0.908213794306063 || MAPE:22.87513992444426 || Model: <keras.src.engine.sequential.Sequential object at 0x60e3ef410>
+==========================================================================
+22/22 [==============================] - 0s 489us/step
+Neurons:100 || Learning Rate:0.1 || Activation Function:relu || Number of Hidden Layers:1
+MAE:0.113732761070196 || RMSE:0.1439608755958994 || MSE:0.020724733702338027 || R2:0.796454330518864 || MAPE:43.74381804926379 || Model: <keras.src.engine.sequential.Sequential object at 0x61285af10>
+==========================================================================
+22/22 [==============================] - 0s 618us/step
+Neurons:100 || Learning Rate:0.1 || Activation Function:relu || Number of Hidden Layers:2
+MAE:0.2803147758769962 || RMSE:0.32569383716267747 || MSE:0.10607647556574867 || R2:-0.04181831937333258 || MAPE:193.82700290352543 || Model: <keras.src.engine.sequential.Sequential object at 0x612ce1dd0>
+==========================================================================
+22/22 [==============================] - 0s 792us/step
+Neurons:100 || Learning Rate:0.1 || Activation Function:relu || Number of Hidden Layers:3
+MAE:0.27999231952784037 || RMSE:0.3199721831552474 || MSE:0.10238219799313518 || R2:-0.0055353826385686755 || MAPE:184.99110214086588 || Model: <keras.src.engine.sequential.Sequential object at 0x612f38ed0>
+==========================================================================
+22/22 [==============================] - 0s 482us/step
+Neurons:100 || Learning Rate:0.1 || Activation Function:tanh || Number of Hidden Layers:1
+MAE:0.0828456453213403 || RMSE:0.11658478555051358 || MSE:0.01359201222185924 || R2:0.8665075620739092 || MAPE:32.874996028029315 || Model: <keras.src.engine.sequential.Sequential object at 0x6144b3650>
+==========================================================================
+22/22 [==============================] - 0s 654us/step
+Neurons:100 || Learning Rate:0.1 || Activation Function:tanh || Number of Hidden Layers:2
+MAE:0.07823931361590827 || RMSE:0.1130538638127816 || MSE:0.012781176122998969 || R2:0.8744710987326875 || MAPE:36.62648644051001 || Model: <keras.src.engine.sequential.Sequential object at 0x61410c190>
+==========================================================================
+22/22 [==============================] - 1s 1ms/step
+Neurons:100 || Learning Rate:0.1 || Activation Function:tanh || Number of Hidden Layers:3
+MAE:0.07339189663529395 || RMSE:0.10244526513197749 || MSE:0.010495032347961165 || R2:0.8969242058221989 || MAPE:39.45256945128665 || Model: <keras.src.engine.sequential.Sequential object at 0x61424d990>
+==========================================================================
+22/22 [==============================] - 0s 457us/step
+Neurons:100 || Learning Rate:0.1 || Activation Function:sigmoid || Number of Hidden Layers:1
+MAE:0.07351491834914686 || RMSE:0.10285247095756782 || MSE:0.010578630782077332 || R2:0.8961031530895488 || MAPE:35.07024182485344 || Model: <keras.src.engine.sequential.Sequential object at 0x61b8d5610>
+==========================================================================
+22/22 [==============================] - 0s 612us/step
+Neurons:100 || Learning Rate:0.1 || Activation Function:sigmoid || Number of Hidden Layers:2
+MAE:0.0845033054146836 || RMSE:0.1114891830981081 || MSE:0.012429837947883472 || R2:0.877921727584922 || MAPE:49.668354903311084 || Model: <keras.src.engine.sequential.Sequential object at 0x61b71a1d0>
+==========================================================================
+22/22 [==============================] - 0s 811us/step
+Neurons:100 || Learning Rate:0.1 || Activation Function:sigmoid || Number of Hidden Layers:3
+MAE:0.2852407720723246 || RMSE:0.3195100596839954 || MSE:0.1020866782392703 || R2:-0.0026329682090631135 || MAPE:180.45331879306943 || Model: <keras.src.engine.sequential.Sequential object at 0x622f87510>
+==========================================================================
+22/22 [==============================] - 0s 625us/step
 
-WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
-15/15 [==============================] - 0s 414us/step
-WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
-MAE:0.07813984888207601 || RMSE:0.11418649241973312 || MSE:0.01303855505112177 || R2:0.8722360472775104 || MAPE:40.38029464800212 || Model: <keras.src.engine.sequential.Sequential object at 0x3279e7150>
-==========================================================================
-15/15 [==============================] - 0s 437us/step
-WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
-MAE:0.07655300194938139 || RMSE:0.10925869904445701 || MSE:0.01193746331688723 || R2:0.8830255735497303 || MAPE:66.77521336087564 || Model: <keras.src.engine.sequential.Sequential object at 0x327a69990>
-==========================================================================
-15/15 [==============================] - 0s 411us/step
-WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
-MAE:0.07966145506701067 || RMSE:0.1199603043753139 || MSE:0.014390474625817953 || R2:0.8589886753142166 || MAPE:89.09819731381113 || Model: <keras.src.engine.sequential.Sequential object at 0x326817d10>
-==========================================================================
-15/15 [==============================] - 0s 432us/step
-WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
-MAE:0.07613163969577866 || RMSE:0.10879267365713165 || MSE:0.011835845841467147 || R2:0.884021316580645 || MAPE:51.47708574885985 || Model: <keras.src.engine.sequential.Sequential object at 0x327a78b50>
-==========================================================================
-15/15 [==============================] - 0s 439us/step
-WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
-MAE:0.0774746802724198 || RMSE:0.11170702322302113 || MSE:0.012478459037348583 || R2:0.8777243916794167 || MAPE:73.31226193810755 || Model: <keras.src.engine.sequential.Sequential object at 0x3249c01d0>
-==========================================================================
-15/15 [==============================] - 0s 413us/step
-WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
-MAE:0.07661145739304306 || RMSE:0.1063273849990143 || MSE:0.011305512800728612 || R2:0.8892180155460155 || MAPE:89.81897659411693 || Model: <keras.src.engine.sequential.Sequential object at 0x324a89f10>
-==========================================================================
-15/15 [==============================] - 0s 401us/step
-WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
-MAE:0.08862425878146514 || RMSE:0.12935226605852487 || MSE:0.016732008734475407 || R2:0.8360441349120292 || MAPE:54.308149005260496 || Model: <keras.src.engine.sequential.Sequential object at 0x327a132d0>
-==========================================================================
-15/15 [==============================] - 0s 447us/step
-WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
-MAE:0.09381479950459326 || RMSE:0.14413074006726767 || MSE:0.020773670232338278 || R2:0.7964401568248384 || MAPE:82.16663198605227 || Model: <keras.src.engine.sequential.Sequential object at 0x302f69c50>
-==========================================================================
-15/15 [==============================] - 0s 410us/step
-WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
-MAE:0.08111010659885466 || RMSE:0.10908881763857133 || MSE:0.01190037013378147 || R2:0.883389047237886 || MAPE:50.671303794296485 || Model: <keras.src.engine.sequential.Sequential object at 0x3151e05d0>
-==========================================================================
-15/15 [==============================] - 0s 431us/step
-WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
-MAE:0.0793001556944453 || RMSE:0.11692938076884007 || MSE:0.013672480086984387 || R2:0.8660242570910981 || MAPE:116.88153626821219 || Model: <keras.src.engine.sequential.Sequential object at 0x3233e7cd0>
-==========================================================================
-15/15 [==============================] - 0s 436us/step
-WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
-MAE:0.07923329761214191 || RMSE:0.11470591696603642 || MSE:0.013157447387019244 || R2:0.8710710290125943 || MAPE:92.19020461412534 || Model: <keras.src.engine.sequential.Sequential object at 0x2fd14bbd0>
-==========================================================================
-15/15 [==============================] - 0s 426us/step
-WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
-MAE:0.08248504184170632 || RMSE:0.1185741610554956 || MSE:0.01405983167001461 || R2:0.8622286241281497 || MAPE:97.33898056937035 || Model: <keras.src.engine.sequential.Sequential object at 0x322e3ca90>
-==========================================================================
-15/15 [==============================] - 0s 430us/step
-WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
-MAE:0.08040954310237139 || RMSE:0.13272290201864154 || MSE:0.01761536872024992 || R2:0.8273881478784259 || MAPE:201.44683310897133 || Model: <keras.src.engine.sequential.Sequential object at 0x323870910>
-==========================================================================
-15/15 [==============================] - 0s 443us/step
-WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
-MAE:0.07461182264650859 || RMSE:0.10721241251694806 || MSE:0.01149450139770424 || R2:0.8873661285789083 || MAPE:61.000919457194655 || Model: <keras.src.engine.sequential.Sequential object at 0x326086c50>
-==========================================================================
-15/15 [==============================] - 0s 410us/step
-WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
-MAE:0.0777568360868112 || RMSE:0.11284459289196827 || MSE:0.012733902144954056 || R2:0.8752213212858471 || MAPE:123.55797167466574 || Model: <keras.src.engine.sequential.Sequential object at 0x3249c8c50>
-==========================================================================
-15/15 [==============================] - 0s 427us/step
-WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
-MAE:0.15773060768051037 || RMSE:0.19063401961113713 || MSE:0.036341329433099416 || R2:0.6438936770709522 || MAPE:53.79312347873082 || Model: <keras.src.engine.sequential.Sequential object at 0x33994e310>
-==========================================================================
-15/15 [==============================] - 0s 444us/step
-WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
-MAE:0.07753346806508649 || RMSE:0.10722876365179167 || MSE:0.011498007754291798 || R2:0.8873317700188128 || MAPE:46.957769621016055 || Model: <keras.src.engine.sequential.Sequential object at 0x33ad91590>
-==========================================================================
-15/15 [==============================] - 0s 424us/step
-WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
-MAE:0.08219972317807113 || RMSE:0.11246168261962779 || MSE:0.012647630057637891 || R2:0.8760666958570258 || MAPE:55.406167772293394 || Model: <keras.src.engine.sequential.Sequential object at 0x33d6267d0>
-==========================================================================
-15/15 [==============================] - 0s 477us/step
-WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
-MAE:0.07806402329941052 || RMSE:0.11229268287033298 || MSE:0.012609646626217174 || R2:0.8764388930305045 || MAPE:81.66375578625043 || Model: <keras.src.engine.sequential.Sequential object at 0x33c26ed10>
-==========================================================================
-15/15 [==============================] - 0s 491us/step
-WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
-MAE:0.07743788447919517 || RMSE:0.11392442761822837 || MSE:0.012978775208140954 || R2:0.8728218260699006 || MAPE:115.60023917760418 || Model: <keras.src.engine.sequential.Sequential object at 0x3263f4990>
-==========================================================================
-15/15 [==============================] - 0s 456us/step
-WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
-MAE:0.08348635641288146 || RMSE:0.12259037310869775 || MSE:0.015028399578929723 || R2:0.8527376901988947 || MAPE:106.44224293688855 || Model: <keras.src.engine.sequential.Sequential object at 0x323e52050>
-==========================================================================
-15/15 [==============================] - 0s 458us/step
-WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
-MAE:0.08151350652160105 || RMSE:0.13789514238118344 || MSE:0.019015070292326852 || R2:0.813672563231257 || MAPE:184.87478367589623 || Model: <keras.src.engine.sequential.Sequential object at 0x323579a50>
-==========================================================================
-15/15 [==============================] - 0s 512us/step
-WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
-MAE:0.07210071915625337 || RMSE:0.10555358166606146 || MSE:0.011141558602533906 || R2:0.890824592068082 || MAPE:47.59065508710024 || Model: <keras.src.engine.sequential.Sequential object at 0x31e279cd0>
-==========================================================================
-15/15 [==============================] - 0s 471us/step
-WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
-MAE:0.0785681213037403 || RMSE:0.11516135144177325 || MSE:0.013262136865895611 || R2:0.8700451836196608 || MAPE:145.75085896034747 || Model: <keras.src.engine.sequential.Sequential object at 0x30d8c1c10>
-==========================================================================
-15/15 [==============================] - 0s 464us/step
-WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
-MAE:0.080115395677928 || RMSE:0.11583625737534037 || MSE:0.013418038522726097 || R2:0.8685175134265641 || MAPE:52.484792737726785 || Model: <keras.src.engine.sequential.Sequential object at 0x2ff0a1b90>
-==========================================================================
-15/15 [==============================] - 0s 491us/step
-WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
-MAE:0.07943709582565373 || RMSE:0.11144603820228824 || MSE:0.01242021943098589 || R2:0.878295077793386 || MAPE:51.709601187504006 || Model: <keras.src.engine.sequential.Sequential object at 0x321a30490>
-==========================================================================
-15/15 [==============================] - 0s 473us/step
-MAE:0.0762389017440586 || RMSE:0.10714561040028257 || MSE:0.01148018182804914 || R2:0.8875064451103987 || MAPE:39.03461933759761 || Model: <keras.src.engine.sequential.Sequential object at 0x340a375d0>
-==========================================================================
-15/15 [==============================] - 0s 459us/step
-Best configuration: {'neurons': 100, 'learning_rate': 0.01, 'activation': 'tanh', 'MAE': 0.07210071915625337, 'MSE': 0.011141558602533906, 'RMSE': 0.10555358166606146, 'R2': 0.890824592068082, 'MAPE': 47.59065508710024, 'model': <keras.src.engine.sequential.Sequential object at 0x31e279cd0>}
+
+Best configuration: {'neurons': 50, 'learning_rate': 0.01, 'activation': 'sigmoid', 'num_layers': 3, 'MAE': 0.07033543392852276, 'MSE': 0.009276819739640544, 'RMSE': 0.09631624857541195, 'R2': 0.9088887456079626, 'MAPE': 28.297553484081234, 'model': <keras.src.engine.sequential.Sequential object at 0x5738c2ad0>}
 
