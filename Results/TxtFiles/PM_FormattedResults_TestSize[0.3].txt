@@ -8,7 +8,7 @@ R2': 0.8874834961297984
 
 2022 Weekends:
 Neurons: 50
-Learning Rate: 0.0 
+Learning Rate: 0.01 
 Activation Function: sigmoid 
 Hidden Layers: 3 
 MAE: 0.07033543392852276
